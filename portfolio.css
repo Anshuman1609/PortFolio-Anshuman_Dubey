@@ -514,6 +514,14 @@ img {
 .skills__list{
   row-gap: 1.5rem;
   padding-left: 2.7rem;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 1.5rem; /* Optional: adjust spacing */
+}
+@media screen and (max-width: 600px) {
+  .skills__list {
+    grid-template-columns: 1fr; /* One column on small screens */
+  }
 }
 
 /* making flow */
