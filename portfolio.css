@@ -151,6 +151,8 @@ img {
 
 .section__subtitle {
   display: block;
+  padding-left: 10rem;
+  padding-right: 10rem;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
